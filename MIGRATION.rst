@@ -1,4 +1,4 @@
-############################
+*###########################
 Migrate from legacy wrappers
 ############################
 
@@ -104,3 +104,4 @@ New method:
     $data = $client->put('/my/method', $content);
     $data = $client->delete('/my/method');
 
+ 
