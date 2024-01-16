@@ -1,5 +1,5 @@
-*###########################
-Migrate from legacy wrappers
+############################
+Migrate#from legacy wrappers
 ############################
 
 This guide specifically targets developers comming from the legacy wrappers
@@ -44,7 +44,7 @@ with PSR-4 autoloading system. You can find more informations about
 `autoloading <https://getcomposer.org/doc/01-basic-usage.md#autoloading>`_
 
 Legacy method:
-**************
+ *************
 
 .. code:: php
 
@@ -104,4 +104,4 @@ New method:
     $data = $client->put('/my/method', $content);
     $data = $client->delete('/my/method');
 
- 
+  
